@@ -1,0 +1,14 @@
+@import 'tailwindcss/base.css';
+@import 'tailwindcss/components.css';
+@import 'tailwindcss/utilities.css';
+
+/* 
+  Prevent resize font 
+  https://stackoverflow.com/questions/11289166/chrome-on-android-resizes-font
+*/
+@layer base {
+  div,
+  span {
+    max-height: 999999px;
+  }
+}
