@@ -8,5 +8,8 @@ export default defineConfig({
   plugins: [svelte()],
   build: {
     target: 'es2015'
+  },
+  server: {
+    port: 3000
   }
 });
