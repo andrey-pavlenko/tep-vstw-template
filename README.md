@@ -3,14 +3,15 @@
 ## Install
 
 NPM
+
 ```sh
 npx degit andrey-pavlenko/tep-vstw-template application_name
 ```
 
 PNPM
+
 ```sh
 pnpx degit andrey-pavlenko/tep-vstw-template application_name
 ```
 
-
-- Correct `name` in `package.json`
+- Correct `name` and `version` in `package.json`
